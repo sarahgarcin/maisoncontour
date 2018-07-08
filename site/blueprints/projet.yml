@@ -1,0 +1,28 @@
+<?php if(!defined('KIRBY')) exit ?>
+
+title: Page Projet
+pages: false
+files: true
+files: 
+  fields: 
+    caption:
+      label: Légendes
+      type: markdown
+fields:
+  title:
+    label: Titre
+    type:  text
+  text: 
+    label: Texte
+    type: markdown
+  year: 
+    label: Date
+    type: text
+  thumb: 
+    label: Vignette à afficher sur la liste des projets
+    type: selector
+    mode: single
+  imagesProject: 
+    label: Images du projet
+    type: selector
+    mode: multiple

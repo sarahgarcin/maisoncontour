@@ -1,0 +1,26 @@
+<?php if(!defined('KIRBY')) exit ?>
+
+title: Site
+fields:
+  siteSettings:
+    label: Paramètres du site
+    type:  headline
+  title:
+    label: Titre
+    type:  title
+  author:
+    label: Auteur
+    type:  text
+  description:
+    label: Description
+    type:  textarea
+  keywords:
+    label: Mots-clés
+    type:  tags
+  presentationmaison: 
+    label: Présentation du site
+    type: markdown
+  presentation: 
+    label: Présentation 
+    type: markdown
+

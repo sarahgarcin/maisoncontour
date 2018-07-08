@@ -1,0 +1,16 @@
+<?php if(!defined('KIRBY')) exit ?>
+
+title: Accueil
+pages: false
+files: 
+  fields: 
+    caption:
+      label: Légendes
+      type: markdown
+fields:
+  title:
+    label: Title
+    type:  text
+  accueilImage: 
+    label: Image à afficher sur la page d'accueil
+    type: selector
